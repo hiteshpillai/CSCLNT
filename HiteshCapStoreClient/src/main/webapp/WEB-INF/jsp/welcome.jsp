@@ -7,6 +7,6 @@
 <title>Welcome to CapStore</title>
 </head>
 <body>
-<a href="/CustSignUp">Customer Sign Up</a>
+<a href="/showCustomerSignUp">Customer Sign Up</a>
 </body>
 </html>

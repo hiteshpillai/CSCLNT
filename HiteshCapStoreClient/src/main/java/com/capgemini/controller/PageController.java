@@ -17,10 +17,9 @@ public class PageController {
 	}
 	
 	
-	@RequestMapping(value = "/merchantHome")
-	public String showSignUpMer(@ModelAttribute("merchant") Merchant merchant)
-	{
-		return "MerchantSignUp";
+	@RequestMapping("/showCustomerSignUp")
+	public String showCustomerSignUp(@ModelAttribute("customer") Customer customer){
+		return "customerSignUp";
 	}
 	
 	@RequestMapping(value = "/CustomerHome")
